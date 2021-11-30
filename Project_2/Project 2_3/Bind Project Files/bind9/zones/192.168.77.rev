@@ -1,0 +1,15 @@
+$TTL	604800
+@	IN	SOA	server.melih.local. root.melih.local. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+	IN	NS	server.melih.local.
+
+2	IN	PTR	melih.local.
+2	IN	PTR	server.melih.local.
+2	IN	PTR	mail.melih.local.
+2	IN	PTR	www.melih.local.
+2	IN	PTR	ftp.melih.local.
